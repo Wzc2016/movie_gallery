@@ -1,0 +1,16 @@
+{
+  "main.css": "/movie_gallery/static/css/main.e8f660ce.chunk.css",
+  "main.js": "/movie_gallery/static/js/main.22e6d9ca.chunk.js",
+  "main.js.map": "/movie_gallery/static/js/main.22e6d9ca.chunk.js.map",
+  "runtime~main.js": "/movie_gallery/static/js/runtime~main.d2d24976.js",
+  "runtime~main.js.map": "/movie_gallery/static/js/runtime~main.d2d24976.js.map",
+  "static/css/2.558ed665.chunk.css": "/movie_gallery/static/css/2.558ed665.chunk.css",
+  "static/js/2.f8e0bf9b.chunk.js": "/movie_gallery/static/js/2.f8e0bf9b.chunk.js",
+  "static/js/2.f8e0bf9b.chunk.js.map": "/movie_gallery/static/js/2.f8e0bf9b.chunk.js.map",
+  "index.html": "/movie_gallery/index.html",
+  "precache-manifest.98e66e32cac01b6fbdea31bb83818e6e.js": "/movie_gallery/precache-manifest.98e66e32cac01b6fbdea31bb83818e6e.js",
+  "service-worker.js": "/movie_gallery/service-worker.js",
+  "static/css/2.558ed665.chunk.css.map": "/movie_gallery/static/css/2.558ed665.chunk.css.map",
+  "static/css/main.e8f660ce.chunk.css.map": "/movie_gallery/static/css/main.e8f660ce.chunk.css.map",
+  "static/media/semantic.min.css": "/movie_gallery/static/media/outline-icons.ef60a4f6.woff"
+}
