@@ -1,0 +1,40 @@
+.DetailsView {
+  width: 100% !important;
+  text-align: center;
+  margin: 0 auto;
+
+  &-header {
+    text-transform: capitalize;
+  }
+}
+
+.imgBlock {
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.imgBlock img {
+	width: 100px;
+	height: 150px;
+}
+
+.allBlock {
+  width: 100% !important;
+	display: grid;
+	// grid-auto-rows: minmax(100px, auto);
+	grid-template-columns: repeat(10, 1fr);
+  	grid-gap: 10px;
+  	padding-bottom: 30px;
+	padding-top: 30px;	
+}
+
+.allBlock h3 {
+	position: absolute;
+	margin: 0 auto;
+}
+
+.segment {
+	width: 33%;
+  	text-align: center;
+  	margin: 0 auto !important;
+}

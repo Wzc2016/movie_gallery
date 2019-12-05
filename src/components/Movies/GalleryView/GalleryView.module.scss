@@ -1,0 +1,100 @@
+$yellow: rgb(255,255,0);
+$radius: 4px;
+
+@mixin custom-size($size) {
+  font-size: $size;
+}
+.GalleryView {
+  width: 100% !important;
+
+  margin: 0 auto;
+  padding: 2em;
+
+  &-header {
+    text-transform: capitalize;
+  }
+}
+
+.imgBlock {
+	cursor: pointer;
+	font-size: 15px;	
+}
+
+.allBlock {
+  width: 100% !important;
+	display: grid;
+	// grid-auto-rows: minmax(100px, auto);
+	grid-template-columns: repeat(3, 1fr);
+  	grid-gap: 10px;
+  	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.modalBody {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ z-index: 8;
+  color: white;
+ font-size: 19px;
+ border-radius: $radius;
+  padding: 0;
+ overflow: auto;
+ transform: translate(-50%, -50%);
+
+}
+
+.modalOverlay {
+ position: fixed;
+
+ z-index: 7;
+ width: 100%;
+ height: 100%;
+  top: 0;
+ left: 0;
+ background: rgba(21,21,21,.75);
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  @include custom-size(36px);
+  transition: 0.6s;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+	left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+
+  background-color: rgba(0,0,0,0.8);
+
+}
+
+.modalClose {
+ position: absolute;
+ top: 0;
+ right: 8px;
+ font-size: 3.5rem;
+ color: $yellow;
+ transition: all .25s ease-in-out;
+ 
+ &:focus,
+ &:hover {
+  color: #fff;
+ }
+}

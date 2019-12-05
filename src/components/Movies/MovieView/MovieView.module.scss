@@ -1,0 +1,24 @@
+.MovieView {
+  width: 100% !important;
+
+  margin: 0 auto;
+  padding: 2em;
+
+  &-header {
+    text-transform: capitalize;
+  }
+}
+
+img{
+	width: 184.976px;
+	height: 262.967px;
+}
+
+.imgButton {
+	padding: 0 !important;
+}
+
+.titleButton {
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+}
